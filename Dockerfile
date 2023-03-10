@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows/nanoserver:1709
+FROM mcr.microsoft.com/windows/nanoserver:ltsc2022
 
 RUN powershell Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
