@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/windows-latest
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 RUN powershell Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
 
